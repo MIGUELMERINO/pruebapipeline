@@ -1,0 +1,21 @@
+<div class="row mt-3 mt-3">
+    <h4>Unidad Metrobus</h4>
+</div>
+
+
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Linea</th>
+        <th scope="col">nombre</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="fields in unitMetroBus">
+        <th>{{fields.line}}</th>
+        <td>{{fields.name}}</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>

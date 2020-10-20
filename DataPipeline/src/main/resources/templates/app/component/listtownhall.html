@@ -1,0 +1,19 @@
+<div class="row mt-3 mt-3">
+	<h4>Alcaldias</h4>
+</div>
+
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th scope="col">Alcaldia</th>
+			<th scope="col">Municipio</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="fields in town_hall">
+        <th>{{fields.nomgeo}}</th>
+        <td>{{fields.municipality}}</td>
+      </tr>
+	</tbody>
+</table>
